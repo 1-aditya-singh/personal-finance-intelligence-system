@@ -1,0 +1,61 @@
+id,date,type,category,amount,description
+1,2026-09-01,Income,Salary,30000,Monthly salary
+2,2026-09-02,Expense,Food,250,Lunch
+3,2026-09-03,Expense,Travel,500,Cab to college
+4,2026-09-04,Expense,Shopping,1200,Clothes
+5,2026-09-05,Expense,Food,180,Breakfast
+6,2026-09-06,Expense,Entertainment,350,Movie
+7,2026-09-07,Expense,Bills,800,Electricity bill
+8,2026-09-08,Expense,Education,600,Online course
+9,2026-09-09,Expense,Food,220,Dinner
+10,2026-09-10,Expense,Travel,300,Auto fare
+11,2026-09-11,Expense,Health,450,Medicines
+12,2026-09-12,Expense,Food,150,Snacks
+13,2026-09-14,Expense,Shopping,900,Shoes
+14,2026-09-15,Income,Freelance,5000,Freelance project
+15,2026-09-16,Expense,Travel,450,Cab
+16,2026-09-17,Expense,Food,280,Dinner
+17,2026-09-18,Expense,Entertainment,200,Gaming
+18,2026-09-20,Expense,Bills,600,Internet bill
+19,2026-09-21,Expense,Food,190,Lunch
+20,2026-09-22,Expense,Education,400,Books
+21,2026-09-24,Expense,Travel,350,Bus and auto
+22,2026-09-25,Expense,Food,300,Dinner
+23,2026-09-27,Expense,Shopping,1500,Backpack
+24,2026-09-29,Expense,Food,250,Lunch
+25,2026-09-30,Expense,Entertainment,450,Restaurant
+26,2026-10-01,Income,Salary,30000,Monthly salary
+27,2026-10-02,Expense,Food,300,Lunch
+28,2026-10-03,Expense,Travel,550,Cab to college
+29,2026-10-04,Expense,Bills,850,Electricity bill
+30,2026-10-05,Expense,Shopping,1100,Clothes
+31,2026-10-06,Expense,Food,200,Breakfast
+32,2026-10-08,Expense,Entertainment,400,Movie
+33,2026-10-09,Expense,Education,750,Programming course
+34,2026-10-10,Expense,Travel,350,Auto fare
+35,2026-10-11,Expense,Food,280,Dinner
+36,2026-10-13,Expense,Health,700,Doctor consultation
+37,2026-10-15,Income,Freelance,3500,Freelance work
+38,2026-10-16,Expense,Food,220,Lunch
+39,2026-10-18,Expense,Shopping,1800,Electronics
+40,2026-10-19,Expense,Travel,400,Cab
+41,2026-10-21,Expense,Bills,650,Mobile and internet
+42,2026-10-22,Expense,Food,350,Dinner
+43,2026-10-24,Expense,Entertainment,500,Restaurant
+44,2026-10-25,Expense,Education,450,Study material
+45,2026-10-27,Expense,Travel,300,Bus fare
+46,2026-10-28,Expense,Food,180,Snacks
+47,2026-10-30,Expense,Shopping,950,Clothes
+48,2026-10-31,Expense,Food,320,Dinner
+49,2026-11-01,Income,Salary,30000,Monthly salary
+50,2026-11-02,Expense,Food,280,Lunch
+51,2026-11-03,Expense,Travel,600,Cab
+52,2026-11-05,Expense,Bills,900,Electricity bill
+53,2026-11-06,Expense,Shopping,1300,Clothes
+54,2026-11-07,Expense,Food,250,Dinner
+55,2026-11-09,Expense,Entertainment,350,Movie
+56,2026-11-10,Expense,Education,500,Books
+57,2026-11-12,Expense,Health,800,Medical expenses
+58,2026-11-14,Expense,Travel,450,Auto and cab
+59,2026-11-16,Income,Freelance,4500,Freelance project
+60,2026-11-18,Expense,Food,300,Dinner
