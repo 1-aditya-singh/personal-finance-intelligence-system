@@ -1,16 +1,16 @@
 # 💰 Personal Finance Intelligence System
 
-A Python-based personal finance analysis and intelligence system that analyzes income, expenses, savings, budgets, spending behavior, financial health, and unusual expenses.
+A Python-based personal finance analysis and intelligence system that transforms raw transaction data into meaningful financial insights.
 
-The project started as a data analysis workflow using Pandas and gradually evolved into a modular Python application with automated testing and an interactive Streamlit dashboard.
+The project analyzes income, expenses, savings, budgets, spending behavior, financial health, alerts, and unusual expenses through a modular Python application and an interactive Streamlit dashboard.
 
 ---
 
 ## 📌 Project Overview
 
-Managing personal finances can be difficult when financial transactions are stored as raw data.
+Managing personal finances becomes difficult when transaction data is stored as raw records without meaningful analysis.
 
-This project transforms transaction data into meaningful financial information such as:
+This project converts transaction data into useful financial information such as:
 
 - Total income
 - Total expenses
@@ -18,35 +18,38 @@ This project transforms transaction data into meaningful financial information s
 - Savings rate
 - Category-wise spending
 - Monthly financial performance
+- Daily spending behavior
 - Budget utilization
 - Financial health score
 - Spending alerts
 - Financial insights
 - Expense anomaly detection
 
-The project also provides an interactive dashboard for exploring financial information.
+The project started as a collection of data analysis notebooks and gradually evolved into a modular Python application with automated testing and an interactive Streamlit dashboard.
 
 ---
 
 ## 🎯 Problem Statement
 
-Raw financial transaction data does not directly provide useful information about spending patterns or financial performance.
+Raw financial transaction data does not directly explain spending patterns or overall financial performance.
 
 The goal of this project is to build a system that can:
 
 1. Analyze financial transactions.
-2. Identify spending patterns.
-3. Track budgets.
-4. Calculate savings and savings rate.
-5. Generate financial insights.
-6. Detect unusually large expenses.
-7. Present the results through an interactive dashboard.
+2. Calculate income, expenses, savings, and savings rate.
+3. Identify spending patterns.
+4. Analyze daily and monthly spending.
+5. Track category-wise budgets.
+6. Generate financial health indicators.
+7. Detect unusual expenses.
+8. Generate actionable financial insights.
+9. Present financial information through an interactive dashboard.
 
 ---
 
 ## 🚀 Features
 
-### Financial Analysis
+### 💵 Financial Analysis
 
 - Total income calculation
 - Total expense calculation
@@ -55,7 +58,7 @@ The goal of this project is to build a system that can:
 - Average expense analysis
 - Largest expense detection
 
-### Spending Analysis
+### 📊 Spending Analysis
 
 - Category-wise spending
 - Daily expense analysis
@@ -63,7 +66,7 @@ The goal of this project is to build a system that can:
 - Spending behavior analysis
 - Top expense identification
 
-### Financial Intelligence
+### 🧠 Financial Intelligence
 
 - Financial health score
 - Spending alerts
@@ -72,7 +75,7 @@ The goal of this project is to build a system that can:
 - Automated financial insights
 - Expense anomaly detection
 
-### Visualization
+### 📈 Data Visualization
 
 - Income vs Expense
 - Spending by category
@@ -82,11 +85,12 @@ The goal of this project is to build a system that can:
 - Expense distribution
 - Category-month spending heatmap
 
-### Application
+### 🖥️ Application
 
 - Interactive Streamlit dashboard
-- Automated tests using pytest
 - Modular Python architecture
+- Automated unit testing with pytest
+- Reusable analysis functions
 
 ---
 
@@ -100,14 +104,15 @@ The goal of this project is to build a system that can:
 - Streamlit
 - Pytest
 - Jupyter Notebook
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-personal-finance-intelligence/
+personal-finance-intelligence-system/
 │
 ├── app/
 │   └── dashboard.py
@@ -116,12 +121,12 @@ personal-finance-intelligence/
 │   └── transactions.csv
 │
 ├── notebooks/
-│   ├── financial_analysis.ipynb
-│   ├── monthly_analysis.ipynb
+│   ├── finance_analysis.ipynb
+│   ├── financial_functions.ipynb
 │   ├── daily_analysis.ipynb
+│   ├── monthly_analysis.ipynb
 │   ├── spending_behavior.ipynb
 │   ├── top_expenses.ipynb
-│   ├── financial_functions.ipynb
 │   ├── financial_health.ipynb
 │   ├── spending_alerts.ipynb
 │   ├── budget_tracking.ipynb
@@ -130,6 +135,11 @@ personal-finance-intelligence/
 │   ├── financial_visualizations.ipynb
 │   ├── advanced_visual_analysis.ipynb
 │   └── expense_anomaly_detection.ipynb
+│
+├── screenshots/
+│   ├── dashboard_overview.jpeg
+│   ├── dashboard_analysis.jpeg
+│   └── dashboard_alerts.jpeg
 │
 ├── src/
 │   ├── __init__.py
@@ -143,11 +153,6 @@ personal-finance-intelligence/
 │   ├── test_analytics.py
 │   ├── test_budget.py
 │   └── test_transaction.py
-│
-├── screenshots/
-│   ├── dashboard_overview.jpeg
-│   ├── dashboard_analysis.jpeg
-│   └── dashboard_alerts.jpeg
 │
 ├── .gitignore
 ├── README.md
